@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/CuteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="App Title: Tic Tac Toy"
+        android:gravity="center"
+        android:text="TIC TAC TOY"
+        android:textColor="#7AA3D2F0"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Tic Tac Toy Logo"
+        android:src="@drawable/tic_tac" />
+
+    <!-- Input for Player 1 Name -->
+    <EditText
+        android:id="@+id/player1_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Player 1 Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:padding="12dp" />
+
+    <!-- Input for Player 2 Name -->
+    <EditText
+        android:id="@+id/player2_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Enter Player 2 Name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="@color/white"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNextPage"
+        style="@style/CuteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#026CAF"
+        android:contentDescription="Button to go to game page"
+        android:onClick="startGame"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

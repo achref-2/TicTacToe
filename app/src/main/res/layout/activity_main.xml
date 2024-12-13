@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/CuteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="App Title: Tic Tac Toy"
+        android:gravity="center"
+        android:text="TIC TAC TOY"
+        android:textColor="#7AA3D2F0"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Tic Tac Toy Logo"
+        android:src="@drawable/tic_tac" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNextPage"
+        style="@style/CuteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#026CAF"
+        android:contentDescription="Button to start playing Tic Tac Toy"
+        android:onClick="startGame"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:text="Let's Play"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

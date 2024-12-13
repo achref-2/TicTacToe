@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><style name="CuteButton" parent="Widget.MaterialComponents.Button">
+    <item name="cornerRadius">50dp</item>
+    <item name="backgroundTint">#FF69B4</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">18sp</item>
+</style>
+</resources>
